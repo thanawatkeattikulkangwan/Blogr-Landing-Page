@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogr Landing Page</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+     <div class="secction section_top">
+          <div class="nav-header">
+            <div class="header-left">
+              <div class="logo"><img src="./images/logo.svg" ></div>
+              <div class="nav-menu">
+                <ul>
+                <div class="group-dropdown">
+                  <li class="menu">Product<i><img src="./images/icon-arrow-light.svg" ></i></li>
+                  <div class="dropdown-content" id="dropdown-company">
+                    <a href="#">Overview</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Marketplace</a>
+                    <a href="#">Integrations</a>
+                   </div>
+                </div>
+               
+                <div class="group-dropdown">
+                  <li class="menu">Company<i><img src="./images/icon-arrow-light.svg" ></i></li>
+                  <div class="dropdown-content" id="dropdown-company">
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                    
+                  </div>
+                </div>
+                <div class="group-dropdown">
+                  <li class="menu" >Connect<i><img src="./images/icon-arrow-light.svg" ></i></li>
+                  <div class="dropdown-content" id="dropdown-connect">
+                    <a href="#">Contact</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">LinkedIn</a>
+                  </div>
+                </div>
+                
+              </ul>
+             </div>
+            </div>
+            <div class="header-right">
+              <div class="nav-menu-right">
+                <a>Login</a>
+                <a>SignUp</a>
+              </div>
+              <div class="nav-menu-mobile">
+                 <i class="menu-hamburger" onclick="showMenu()"><img src="./images/icon-hamburger.svg" id="icon-menu" ></i>
+                 <div class="menu-mobile" id="myMenu-mobile">
+                  <div class="menu-mobile-top">
+                    <div class="group-dropdown-mobile" data-type = "product">
+                      <li href="#">Product<i><img src="./images/icon-arrow-dark.svg" ></i></li>
+                      <div class="dropdown-content-mobile" id="dropdown-product-mobile">
+                        <a href="#">Overview</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Marketplace</a>
+                        <a href="#">Integrations</a>
+                      </div>
+                    </div>
+                    <div class="group-dropdown-mobile" data-type = "company">
+                      <li href="#">Company<i><img src="./images/icon-arrow-dark.svg" ></i></li>
+                      <div class="dropdown-content-mobile" id="dropdown-company-mobile">
+                        <a href="#">About</a>
+                        <a href="#">Team</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                      </div>
+                    </div>
+                    <div class="group-dropdown-mobile" data-type = "connect">
+                      <li href="#">Connect<i><img src="./images/icon-arrow-dark.svg" ></i></li>
+                      <div class="dropdown-content-mobile" id="dropdown-connect-mobile">
+                        <a href="#">Contact</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">LinkedIn</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-mobile-bottom">
+                   
+                      <li><a href="">Login</a> </li>
+                      <li><a href="">Sign Up</a></li>
+                   
+                  </div>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+          <div class="content">
+              <h1>A modern publishing platform</h1>
+              <p>Grow your audience and build your online brand</p>
+              <div class="content-btn">
+                <a class="btn-start-free" href="">Start for Free</a>
+                <a class="btn-learn-more" href="">Learn More</a>
+              </div>
+          </div>
+           
+     </div>
+     <div class="secction section_center">
+        <div class="section_center-content-header">
+            <h4>Designed for the future</h4>
+        </div>
+        <div class="section_center-content-body">
+            <div class="content-body-text">
+               <div class="p-text">
+                <h3>Introduncing an extensible editor</h3>
+                <p>Blogr features an exceedingly intuitive interface which lets you focus
+                  on one thing: creating content. The editor supports management of
+                  multiple blogs and allows easy manipulation of embeds such as images,
+                  videos, and Markdown. Extensibility with plugins and themes provide
+                  easy ways to add functionality or change the looks of a blog.</p>
+               </div>
+                <div class="p-text">
+                  <h3>Robust content management</h3>
+                  <p>Flexible content management enables users to easily move through
+                  posts. Increase the usability of your blog by adding customized
+                  categories, sections, format, or flow. With this functionality, you're in
+                  full control.</p>
+                </div>
+                
+            </div>
+         </div>
+     </div>
+     <div class="secction section_bottom">
+       <div>
+         <div class="img"><img src="./images/illustration-phones.svg" alt=""></div>
+       </div>
+       <div class="section_bottom-content">
+        <h4>State of the Art Infrastructure</h4>
+        <p>With reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.</p>
+       </div>
+     </div>
+     <div class="section section_forth">
+      
+      <div class="section_forth-content">
+          <div class="p-text">
+            
+            <div class="mg-bt-30">
+              <h3>Free, open, simple</h3>
+              <p>Blogr is a free and open source application backed by a large
+               community of helpful developers. It supports features such as code
+               syntax highlighting, RSS feeds, social media integration, third-party
+               commenting tools, and works seamlessly with Google Analytics. The
+               architecture is clean and is relatively easy to learn.</p>
+            </div>
+            <div>
+              <h3>Powerful tooling</h3>
+              <p>Batteries included. We built a simple and straightforward CLl tool that
+              makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.</p>
+            </div>
+          </div>
+     </div>
+   </div>
+   <div class="section section-footer">
+     <div class="footer-detail">
+      <div><img src="./images/logo.svg" ></div>
+      <div>
+        <p>Product</p>
+        <ul>
+          <li>Overview</li>
+          <li>Pricing</li>
+          <li>Marketplace</li>
+          <li>Features</li>
+          <li>Integrations</li>
+        </ul>
+      </div>
+      <div>
+        <p>Company</p>   
+        <ul>
+          <li>About</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      
+      <div>
+        <p>Connect</p>  
+        <ul>
+          <li>Contact</li>
+          <li>Newsletter</li>
+          <li>Linkedin</li>
+         
+        </ul>
+      </div>
+     </div>
+    
+
+   </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
