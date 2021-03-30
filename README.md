@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: Not Depoy Now
+- Live Site URL: Not Deploy Now
 
 
 ### Built with
