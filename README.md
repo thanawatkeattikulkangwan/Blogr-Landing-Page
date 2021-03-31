@@ -8,13 +8,14 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size 
+    ---> Remark ## Only for 1440px and 375px
 - See hover states for all interactive elements on the page
 
 
 ### Links
 
-- Live Site URL: Not Deploy Now
+- Live Site URL: Not Depoy Now
 
 
 ### Built with

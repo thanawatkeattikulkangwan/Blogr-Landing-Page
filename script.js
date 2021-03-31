@@ -19,17 +19,13 @@ const showMenu = () => {
 $(".group-dropdown-mobile").on('click', function(e){
 
     let subMenu  = $(this).children('.dropdown-content-mobile');
+  
     $('.dropdown-content-mobile').slideUp();
+    
     if(subMenu.is(':hidden')){
         subMenu.slideDown();
     }
    
-   
- $(this).children('img').css({
-    "-webkit-transform": "rotateX(180deg)",
-    "-moz-transform": "rotateX(180deg)",
-    "transform": "rotateX(180deg)" /* For modern browsers(CSS3)  */
-});
     e.stopPropagation();
-   // console.log($(this));
+  
 });
